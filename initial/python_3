@@ -1,0 +1,21 @@
+def subnetworks(a, b):
+    # your code here
+    return None
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['B']))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['B']) == 2
+    assert subnetworks([['A', 'B'],
+  ['A', 'C'],
+  ['A', 'D'],
+  ['D', 'F']],
+ ['A']) == 3
+    assert subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['C', 'D']) == 1
+    print("Coding complete? Click 'Check' to earn cool rewards!")

@@ -1,0 +1,25 @@
+
+export function subnetworks(a, b) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['B']));
+
+// These "asserts" are used for self-checking
+assert.equal(subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['B']), 2);
+assert.equal(subnetworks([['A', 'B'],
+  ['A', 'C'],
+  ['A', 'D'],
+  ['D', 'F']],
+ ['A']), 3);
+assert.equal(subnetworks([['A', 'B'], ['B', 'C'], ['C', 'D']],
+ ['C', 'D']), 1);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    
